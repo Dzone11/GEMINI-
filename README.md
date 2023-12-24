@@ -100,13 +100,12 @@ GOOGLE_API_KEY=your_google_api_key
 
 Install the required dependencies by running:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Q/A Application (app.py)
 This application allows users to ask questions using the Gemini Pro model and receive responses.
 
-bash
+
 
 streamlit run app.py
 Enter your question in the text input.
@@ -114,7 +113,7 @@ Click the "Submit" button to get Gemini's response.
 Image Recognition and Description Application (Gemini-vision.py)
 This application utilizes the Gemini Pro Vision model for image recognition and description creation.
 
-bash
+
 
 streamlit run Gemini-vision.py
 Enter text in the provided text input.
